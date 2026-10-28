@@ -1,0 +1,36 @@
+/vendor
+/node_modules
+/.env
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+!**/.gitkeep
+
+
+# Environnement
+/.env
+.env.*
+!.env.example
+.envijd
+
+# Outils / IDE
+/.claude
+/.idea
+/.vscode
+.phpunit.result.cache
+
+# Base de données locale
+/database/*.sqlite
+/database/*.sqlite-journal
+
+# Laravel
+/public/hot
+/public/storage
+/storage/*.key
+auth.json
+
+# Système
+.DS_Store
+Thumbs.db

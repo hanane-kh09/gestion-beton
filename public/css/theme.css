@@ -1,0 +1,80 @@
+:root {
+  --brand-primary: #c0483c;
+  --brand-primary-rgb: 192, 72, 60;
+  --brand-primary-dark: #9c392f;
+  --brand-primary-light: #f7e8e5;
+  --brand-accent: #55565a;
+  --brand-accent-dark: #3d3e41;
+  --sidebar-from: #4a1f19;
+  --sidebar-to: #262429;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+  background: #f4f5f7;
+}
+
+.btn-brand {
+  background: var(--brand-primary);
+  border: 1px solid var(--brand-primary);
+  color: #fff;
+}
+.btn-brand:hover,
+.btn-brand:focus {
+  background: var(--brand-primary-dark);
+  border-color: var(--brand-primary-dark);
+  color: #fff;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(30, 20, 18, .07);
+}
+
+.table th {
+  background: rgba(var(--brand-primary-rgb), .07);
+  border-bottom-width: 1px;
+  font-weight: 600;
+}
+.table tbody tr:hover {
+  background: rgba(var(--brand-primary-rgb), .045);
+}
+
+.badge {
+  border-radius: 50rem;
+  font-weight: 500;
+  padding: .4em .85em;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--sidebar-from) 0%, var(--sidebar-to) 100%);
+}
+.sidebar .brand { color: #fff; font-weight: 700; letter-spacing: 1px; }
+.sidebar .nav-link {
+  color: rgba(255, 255, 255, .75);
+  border-radius: 10px;
+  margin: 2px 8px;
+  transition: background .15s ease, color .15s ease;
+}
+.sidebar .nav-link:hover {
+  background: rgba(255, 255, 255, .08);
+  color: #fff;
+}
+.sidebar .nav-link.active {
+  background: var(--brand-primary);
+  color: #fff;
+}
+
+.login-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--sidebar-from) 0%, var(--sidebar-to) 100%);
+}
+.login-card {
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, .25);
+  border: none;
+}
+
+.badge-statut { font-size: .78rem; }

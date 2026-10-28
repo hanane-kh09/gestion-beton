@@ -1,0 +1,32 @@
+{
+    "name": "alhamra/gestion-beton",
+    "type": "project",
+    "description": "Application de gestion des ventes et de la logistique de livraison de beton pret a l'emploi - ALHAMRA BETON",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "audit": {
+            "block-insecure": false
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
