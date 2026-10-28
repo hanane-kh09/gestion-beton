@@ -4,6 +4,7 @@ Application web de gestion des ventes, de la logistique de livraison et de la fa
 d'une centrale à béton, développée avec **Laravel 10**, **MySQL**, **Bootstrap 5** et **Chart.js**.
 
 > Projet de Fin d'Études — Licence SIR, FST Marrakech
+> 
 > Réalisé par : Hanane Khalis — Encadré par : M. Abdelmounaim Abdali
 
 > ⚠️ Les données présentes dans ce dépôt (clients, commandes, factures...) sont **fictives**,
