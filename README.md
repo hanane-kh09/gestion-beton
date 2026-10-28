@@ -163,8 +163,7 @@ gestion-beton/
 
 ## 10. Limites connues et prochaines étapes
 
-> À ADAPTER selon la réalité du projet, par exemple :
-> - Pas de tests automatisés (PHPUnit) pour l'instant
-> - Assets chargés via CDN (pas de mode 100 % hors ligne par défaut)
-> - Génération PDF via l'impression navigateur (pas de librairie dédiée)
-> - Pas de déploiement en ligne : démo en local uniquement
+- Pas de tests automatisés (PHPUnit) pour l'instant
+- Assets (Bootstrap, icônes, Chart.js) chargés via CDN : pas de mode 100 % hors ligne par défaut
+- Génération des PDF via l'impression du navigateur (pas de librairie dédiée)
+- Démo en local uniquement, pas de déploiement en ligne
